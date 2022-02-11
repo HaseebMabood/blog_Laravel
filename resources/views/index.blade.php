@@ -23,8 +23,8 @@
      @section('header')
      <header class="header" style="background-image: url({{asset('images/2.jpg')}})">
         <div class="header-text">
-          <h1>Haseeb Blog</h1>
-          <h4>Home of verified news...</h4>
+          {{-- <h1>Haseeb Blog</h1> --}}
+          <h3 style="color: rgb(225, 236, 70)">Home of verified news...</h3>
         </div>
         <div class="overlay"></div>
       </header>

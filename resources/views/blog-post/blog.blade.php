@@ -50,7 +50,7 @@
     <!-- main -->
    @section('main')
    <main class="container">
-    <h2 class="header-title">All Blog Posts</h2>
+    <h2 class="header-title" style="color: rgb(153, 212, 44)"><b>All Blog Posts</b></h2>
     <div class="searchbar">
       <form action="">
         <input type="text" placeholder="Search..." name="search" />

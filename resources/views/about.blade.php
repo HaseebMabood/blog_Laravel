@@ -51,7 +51,7 @@
     @section('main')
     <main class="container">
         <section class="single-blog-post">
-          <h1>About Me</h1>
+          <h1 style="color: rgb(153, 212, 44)"><b>About Me</b></h1>
           <div class="single-blog-post-ContentImage" data-aos="fade-left">
             <img src="{{asset('images/2.jpg')}}" alt="" />
           </div>

@@ -49,7 +49,7 @@
     @section('main')
     <main class="container">
         <section id="contact-us">
-          <h1>Get in Touch!</h1>
+          <h1 style="color: rgb(153, 212, 44)"><b>Get in Touch!</b></h1>
 <br>
 @include('include.flash-message')
 <br>

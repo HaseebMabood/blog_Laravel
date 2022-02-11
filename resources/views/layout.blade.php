@@ -38,9 +38,9 @@
       <!-- sidebar -->
       <div class="sidebar">
         <span class="closeButton">&times;</span>
-        <p class="brand-title"><a href="{{route('welcome.index')}}">Haseeb Blog</a></p>
+        {{-- <p class="brand-title"><a href="{{route('welcome.index')}}" >Haseeb Blog</a></p> --}}
 
-        <div class="side-links">
+        <div class="side-links" style="margin-top: 90px">
           <ul>
             <li><a class="{{Request::routeIs('welcome.index') ? 'active' : ''}}" href="{{route('welcome.index')}}">Home</a></li>
             <li><a class="{{Request::routeIs('blog.index') ? 'active' : ''}}" href="{{route('blog.index')}}">Blog</a></li>
@@ -60,8 +60,8 @@
         </div>
 
         <!-- sidebar footer -->
-        <footer class="sidebar-footer">
-          <div>
+        <footer class="sidebar-footer" >
+          <div >
             <a href=""><i class="fab fa-facebook-f"></i></a>
             <a href=""><i class="fab fa-instagram"></i></a>
             <a href=""><i class="fab fa-twitter"></i></a>
